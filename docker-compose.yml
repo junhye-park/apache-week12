@@ -1,0 +1,7 @@
+services:
+  apache:
+    build: .
+    ports:
+      - "8080:80"
+    environment:
+      - SECRET_API_KEY=ORANGE_LOCAL_GADGET_LEAK_777
